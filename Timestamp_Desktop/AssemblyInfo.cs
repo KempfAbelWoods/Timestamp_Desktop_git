@@ -8,5 +8,5 @@ using System.Windows;
     //(used if a resource is not found in the page,
     // app, or any theme specific resource dictionaries)
     
-    //So Groß wie mein GLied
+    //So Groß wie mein GLied und kleiner als deins
 )]
