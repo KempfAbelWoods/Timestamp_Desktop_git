@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codedateien\\Timestamp_Desktop\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
+    "C:\\Users\\Lauritz Abel\\Desktop\\Studium\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
   },
   "projects": {
-    "D:\\Codedateien\\Timestamp_Desktop\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
+    "C:\\Users\\Lauritz Abel\\Desktop\\Studium\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codedateien\\Timestamp_Desktop\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "projectUniqueName": "C:\\Users\\Lauritz Abel\\Desktop\\Studium\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
         "projectName": "Timestamp_Desktop",
-        "projectPath": "D:\\Codedateien\\Timestamp_Desktop\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
-        "packagesPath": "C:\\Users\\David Kempf\\.nuget\\packages\\",
-        "outputPath": "D:\\Codedateien\\Timestamp_Desktop\\Timestamp_Desktop\\obj\\",
+        "projectPath": "C:\\Users\\Lauritz Abel\\Desktop\\Studium\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "packagesPath": "C:\\Users\\Lauritz Abel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lauritz Abel\\Desktop\\Studium\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\David Kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lauritz Abel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +56,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Lauritz Abel\\.dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
