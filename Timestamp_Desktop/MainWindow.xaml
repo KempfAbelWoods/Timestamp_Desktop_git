@@ -9,8 +9,17 @@
         Title="TTSB-Desktop"
         WindowStartupLocation="CenterScreen"
         Height="700"
-        Width="1350">
+        Width="1350"
+        MinWidth="428"
+        AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip"
+        Background="Transparent">
     <Grid>
+        <!-- Border Definition-->
+        
+        <Border Background="DarkGray"
+                BorderBrush="Black"
+                BorderThickness="5"/>
         <!-- Row Definitions-->
         
     </Grid>

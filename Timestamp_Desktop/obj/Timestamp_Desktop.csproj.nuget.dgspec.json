@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
+    "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
+    "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "projectUniqueName": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
         "projectName": "Timestamp_Desktop",
-        "projectPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
-        "packagesPath": "C:\\Users\\david.kempf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
+        "projectPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "packagesPath": "C:\\Users\\David Kempf\\.nuget\\packages\\",
+        "outputPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\david.kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\David Kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
