@@ -6,45 +6,51 @@
         xmlns:local="clr-namespace:Timestamp_Desktop.Helper"
         xmlns:vm="clr-namespace:Timestamp_Desktop.ViewModel"
         mc:Ignorable="d"
-        x:Name="ResponsiveWindow"
         Title="MainWindow"
-        WindowStartupLocation="CenterScreen"
+        x:Name="ResponsiveWindow"
         Height="700"
         Width="1350"
         MinWidth="428"
         WindowStyle="None"
         AllowsTransparency="True"
         ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"
         Background="Transparent">
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibility" />
     </Window.Resources>
+
     <Window.DataContext>
         <vm:MainViewModel />
     </Window.DataContext>
     <Grid>
         <!-- Border Definition-->
 
-        <Border Background="DarkGray"
-                BorderBrush="Black"
-                BorderThickness="5" />
-        
+        <Border Background="#282D33"
+                BorderBrush="#3A4149"
+                BorderThickness="5"
+                CornerRadius="8,8,0,8" />
+
         <ContentControl Content="{Binding}">
 
             <ContentControl.Style>
                 <Style TargetType="ContentControl">
-                    
+
                     <!-- Default Layout-->
-                    
+
                     <Setter Property="ContentTemplate"
-                            Value="{StaticResource Laptop_Layout}"/>
-                    
-                    
+                            Value="{StaticResource Laptop_Layout}" />
+
+
                 </Style>
             </ContentControl.Style>
 
         </ContentControl>
+        <!-- Close App Button-->
+        <Button Command="{Binding CloseAppCommand}"
+                CommandParameter="{Binding ElementName=ResponsiveWindow}"
+                Style="{StaticResource CloseAppStyle}" />
 
 
     </Grid>
