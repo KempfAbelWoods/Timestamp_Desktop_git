@@ -3,24 +3,50 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Timestamp_Desktop"
+        xmlns:local="clr-namespace:Timestamp_Desktop.Helper"
+        xmlns:vm="clr-namespace:Timestamp_Desktop.ViewModel"
         mc:Ignorable="d"
-        x:Name="Ttsb"
-        Title="TTSB-Desktop"
+        x:Name="ResponsiveWindow"
+        Title="MainWindow"
         WindowStartupLocation="CenterScreen"
         Height="700"
         Width="1350"
         MinWidth="428"
+        WindowStyle="None"
         AllowsTransparency="True"
         ResizeMode="CanResizeWithGrip"
         Background="Transparent">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility" />
+    </Window.Resources>
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
     <Grid>
         <!-- Border Definition-->
-        
+
         <Border Background="DarkGray"
                 BorderBrush="Black"
-                BorderThickness="5"/>
+                BorderThickness="5" />
+
         <!-- Row Definitions-->
-        
+        <ContentControl>
+
+            <ContentControl.Style>
+                <Style TargetType="ContentControl">
+                    
+                    <!-- Default Layout-->
+                    
+                    <Setter Property="ContentTemplate"
+                            Value="{StaticResource Laptop_Layout}"/>
+                    
+                    
+                </Style>
+            </ContentControl.Style>
+
+        </ContentControl>
+
+
     </Grid>
 </Window>
