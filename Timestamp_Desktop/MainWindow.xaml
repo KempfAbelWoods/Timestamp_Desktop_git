@@ -29,9 +29,8 @@
         <Border Background="DarkGray"
                 BorderBrush="Black"
                 BorderThickness="5" />
-
-        <!-- Row Definitions-->
-        <ContentControl>
+        
+        <ContentControl Content="{Binding}">
 
             <ContentControl.Style>
                 <Style TargetType="ContentControl">
