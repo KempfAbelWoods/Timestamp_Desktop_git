@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3T65uv2h7J9WOILZ2b1wTaIDllRZt3tp/wW6Z+/oTIVOVI12kVLdogYhcXcPdTVggfl91eXKC+dNu1wtbfKFTw==",
+  "dgSpecHash": "17obYNnk8yn6F5YZtDHUJuAUE58TY/5mWHcUlChYm8oRSeRe9PfEpC6A+RBTGLS0ciKkNgelcgrZgj/UN2TB8g==",
   "success": true,
-  "projectFilePath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david.kempf\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512"
+  ],
   "logs": []
 }

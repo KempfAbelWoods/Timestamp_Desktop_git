@@ -1,26 +1,83 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SQLite/3.13.0": {
+      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "type": "package",
+      "path": "sqlite/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/SQLite.props",
+        "lib/netstandard1.0/_._",
+        "runtimes/linux-x64/native/libsqlite3.so",
+        "runtimes/osx-x64/native/libsqlite3.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win7-x64/native/sqlite3.dll",
+        "runtimes/win7-x86/native/sqlite3.dll",
+        "sqlite-version.txt",
+        "sqlite.3.13.0.nupkg.sha512",
+        "sqlite.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "SQLite >= 3.13.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\David Kempf\\.nuget\\packages\\": {}
+    "C:\\Users\\david.kempf\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+      "projectUniqueName": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
       "projectName": "Timestamp_Desktop",
-      "projectPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
-      "packagesPath": "C:\\Users\\David Kempf\\.nuget\\packages\\",
-      "outputPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
+      "projectPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+      "packagesPath": "C:\\Users\\david.kempf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\David Kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david.kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,6 +102,12 @@
     "frameworks": {
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "SQLite": {
+            "target": "Package",
+            "version": "[3.13.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
+    "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {}
   },
   "projects": {
-    "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
+    "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "projectUniqueName": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
         "projectName": "Timestamp_Desktop",
-        "projectPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
-        "packagesPath": "C:\\Users\\David Kempf\\.nuget\\packages\\",
-        "outputPath": "D:\\Codedateien\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
+        "projectPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\Timestamp_Desktop.csproj",
+        "packagesPath": "C:\\Users\\david.kempf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david.kempf\\Documents\\Projekte\\Projektlabor\\Timestamp_Desktop_git\\Timestamp_Desktop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\David Kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david.kempf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
