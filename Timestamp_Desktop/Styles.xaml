@@ -71,7 +71,7 @@
         <Setter Property="FontSize"
                 Value="12" />
         <Setter Property="Text"
-                Value="ORDERS" />
+                Value="Test" />
         <Setter Property="FontFamily"
                 Value="Fonts/#Open Sans SemiBold" />
     </Style>
@@ -87,7 +87,7 @@
         <Setter Property="FontSize"
                 Value="14" />
         <Setter Property="Text"
-                Value="ORDERS" />
+                Value="Test" />
         <Setter Property="FontFamily"
                 Value="Fonts/#Open Sans SemiBold" />
     </Style>
@@ -1285,7 +1285,7 @@
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Left"
                                    FontSize="18"
-                                   Text="Stocks"
+                                   Text="Kundendaten"
                                    FontFamily="Fonts/#Open Sans Regular"
                                    Margin="70,0,0,0" />
                     </Grid>
