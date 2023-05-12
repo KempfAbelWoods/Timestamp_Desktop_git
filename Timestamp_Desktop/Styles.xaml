@@ -1193,7 +1193,7 @@
            TargetType="Border">
 
         <Setter Property="Background"
-                Value="#373E46" />
+                Value="SlateGray" />
         <Setter Property="CornerRadius"
                 Value="4,0,0,4" />
         <Setter Property="MinWidth"
@@ -1214,13 +1214,13 @@
 
                     <Grid>
                         <Border x:Name="border"
-                                Background="#373E46"
+                                Background="SlateGray"
                                 Height="50"
                                 VerticalAlignment="Top">
                             <ContentPresenter />
                         </Border>
 
-                        <Image Source="Assets/dashboard_icon.png"
+                        <Image Source="Assets/menu.png"
                                HorizontalAlignment="Left"
                                VerticalAlignment="Center"
                                Margin="20,0,0,0"
@@ -1269,7 +1269,7 @@
 
                     <Grid>
                         <Border x:Name="border"
-                                Background="#373E46"
+                                Background="SlateGray"
                                 Height="50"
                                 VerticalAlignment="Top">
                             <ContentPresenter />
@@ -1324,13 +1324,13 @@
 
                     <Grid>
                         <Border x:Name="border"
-                                Background="#373E46"
+                                Background="SlateGray"
                                 Height="50"
                                 VerticalAlignment="Top">
                             <ContentPresenter />
                         </Border>
 
-                        <Image Source="Assets/analytics_icon.png"
+                        <Image Source="Assets/paper.png"
                                HorizontalAlignment="Left"
                                VerticalAlignment="Center"
                                Margin="20,0,0,0"
@@ -1340,7 +1340,7 @@
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Left"
                                    FontSize="18"
-                                   Text="Analytics"
+                                   Text="Aufträge"
                                    FontFamily="Fonts/#Open Sans Regular"
                                    Margin="70,0,0,0" />
                     </Grid>
@@ -1379,13 +1379,13 @@
 
                     <Grid>
                         <Border x:Name="border"
-                                Background="#373E46"
+                                Background="SlateGray"
                                 Height="50"
                                 VerticalAlignment="Top">
                             <ContentPresenter />
                         </Border>
 
-                        <Image Source="Assets/discount_icon.png"
+                        <Image Source="Assets/data-bars.png"
                                HorizontalAlignment="Left"
                                VerticalAlignment="Center"
                                Margin="20,0,0,0"
@@ -1395,7 +1395,7 @@
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Left"
                                    FontSize="18"
-                                   Text="Discounts"
+                                   Text="Stammdaten"
                                    FontFamily="Fonts/#Open Sans Regular"
                                    Margin="70,0,0,0" />
                     </Grid>
@@ -1434,13 +1434,13 @@
 
                     <Grid>
                         <Border x:Name="border"
-                                Background="#373E46"
+                                Background="SlateGray"
                                 Height="50"
                                 VerticalAlignment="Top">
                             <ContentPresenter />
                         </Border>
 
-                        <Image Source="Assets/categories_icon.png"
+                        <Image Source="Assets/bill.png"
                                HorizontalAlignment="Left"
                                VerticalAlignment="Center"
                                Margin="20,0,0,0"
@@ -1450,7 +1450,7 @@
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Left"
                                    FontSize="18"
-                                   Text="Categories"
+                                   Text="Rechnungen"
                                    FontFamily="Fonts/#Open Sans Regular"
                                    Margin="70,0,0,0" />
                     </Grid>
@@ -1486,7 +1486,7 @@
         <Setter Property="Height"
                 Value="250" />
         <Setter Property="Background"
-                Value="#2E333A" />
+                Value="SlateGray" />
         <Setter Property="VerticalAlignment"
                 Value="Top" />
         <Setter Property="Margin"
@@ -1513,12 +1513,12 @@
 
                 </StackPanel>
 
-                <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                <TextBlock Text="Kempf / Abel / Woods"
                            FontFamily="Fonts/#Saira SemiBold"
                            FontSize="10"
                            VerticalAlignment="Bottom"
                            HorizontalAlignment="Center"
-                           Foreground="#959FAC"
+                           Foreground="#E9EBED"
                            Margin="0,0,10,10" />
 
             </Grid>
@@ -1672,12 +1672,12 @@
 
                 </StackPanel>
 
-                <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                <TextBlock Text="Kempf / Abel / Woods"
                            FontFamily="Fonts/#Saira SemiBold"
                            FontSize="10"
                            VerticalAlignment="Bottom"
                            HorizontalAlignment="Center"
-                           Foreground="#959FAC"
+                           Foreground="#E9EBED"
                            Margin="0,0,10,10" />
 
             </Grid>

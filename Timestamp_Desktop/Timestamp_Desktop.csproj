@@ -60,6 +60,16 @@
       <Resource Include="Assets\user_icon.png" />
       <None Remove="Assets\id-card.png" />
       <Resource Include="Assets\id-card.png" />
+      <None Remove="Assets\paper.png" />
+      <Resource Include="Assets\paper.png" />
+      <None Remove="Assets\data-bars.png" />
+      <Resource Include="Assets\data-bars.png" />
+      <None Remove="Assets\bill.png" />
+      <Resource Include="Assets\bill.png" />
+      <None Remove="Assets\dashboard.png" />
+      <Resource Include="Assets\dashboard.png" />
+      <None Remove="Assets\menu.png" />
+      <Resource Include="Assets\menu.png" />
     </ItemGroup>
 
     <ItemGroup>
