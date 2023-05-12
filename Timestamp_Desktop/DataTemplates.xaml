@@ -66,14 +66,14 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Desktop"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Center"
                                    Foreground="#DCE0E4" />
 
-                        <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                        <TextBlock Text="Kempf-Abel-Woods"
                                    FontFamily="Fonts/#Saira SemiBold"
                                    FontSize="10"
                                    VerticalAlignment="Center"
@@ -240,7 +240,7 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Desktop"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
@@ -407,14 +407,14 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Mobile"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Center"
                                    Foreground="#DCE0E4" />
 
-                        <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                        <TextBlock Text="Kempf-Abel-Woods"
                                    FontFamily="Fonts/Saira SemiBold"
                                    FontSize="10"
                                    VerticalAlignment="Center"
@@ -581,14 +581,14 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Mobile"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Center"
                                    Foreground="#DCE0E4" />
 
-                        <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                        <TextBlock Text="Kempf-Abel-Woods"
                                    FontFamily="Fonts/#Saira SemiBold"
                                    FontSize="10"
                                    VerticalAlignment="Center"
@@ -752,14 +752,14 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Mobile"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Center"
                                    Foreground="#DCE0E4" />
 
-                        <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                        <TextBlock Text="Kempf-Abel-Woods"
                                    FontFamily="Fonts/#Saira SemiBold"
                                    FontSize="10"
                                    VerticalAlignment="Center"
@@ -927,14 +927,14 @@
 
                     <Grid>
 
-                        <TextBlock Text="C #   D E S I G N   P R O"
+                        <TextBlock Text="Timetracking Mobile"
                                    FontFamily="Fonts/#Saira Regular"
                                    FontSize="18"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="Center"
                                    Foreground="#DCE0E4" />
 
-                        <TextBlock Text="D E S I G N   T H E   I N T E R F A C E"
+                        <TextBlock Text="Kempf-Abel-Woods"
                                    FontFamily="Fonts/#Saira SemiBold"
                                    FontSize="10"
                                    VerticalAlignment="Center"

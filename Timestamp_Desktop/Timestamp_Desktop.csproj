@@ -58,6 +58,8 @@
       <Resource Include="Assets\stocks_icon.png" />
       <None Remove="Assets\user_icon.png" />
       <Resource Include="Assets\user_icon.png" />
+      <None Remove="Assets\id-card.png" />
+      <Resource Include="Assets\id-card.png" />
     </ItemGroup>
 
     <ItemGroup>

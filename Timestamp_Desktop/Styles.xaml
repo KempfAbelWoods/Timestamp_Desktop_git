@@ -1275,7 +1275,7 @@
                             <ContentPresenter />
                         </Border>
 
-                        <Image Source="Assets/stocks_icon.png"
+                        <Image Source="Assets/id-card.png"
                                HorizontalAlignment="Left"
                                VerticalAlignment="Center"
                                Margin="20,0,0,0"
