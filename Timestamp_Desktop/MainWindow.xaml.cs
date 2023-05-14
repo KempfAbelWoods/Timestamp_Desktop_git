@@ -24,5 +24,6 @@ namespace Timestamp_Desktop
         {
             InitializeComponent();
         }
+
     }
 }

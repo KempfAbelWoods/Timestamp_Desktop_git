@@ -5,11 +5,11 @@
         <TargetFramework>net7.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <ApplicationIcon>Assets\1024.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
       <None Remove="Assets\1024.png" />
-      <Resource Include="Assets\1024.png" />
       <None Remove="Assets\play_store_512.png" />
       <Resource Include="Assets\play_store_512.png" />
       <None Remove="Assets\analytics_icon.png" />
@@ -70,6 +70,9 @@
       <Resource Include="Assets\dashboard.png" />
       <None Remove="Assets\menu.png" />
       <Resource Include="Assets\menu.png" />
+      <None Remove="Assets\1024.ico" />
+      <Resource Include="Assets\1024.ico" />
+      <None Remove="Sidemenu.cs~" />
     </ItemGroup>
 
     <ItemGroup>

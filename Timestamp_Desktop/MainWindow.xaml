@@ -6,18 +6,16 @@
         xmlns:local="clr-namespace:Timestamp_Desktop.Helper"
         xmlns:vm="clr-namespace:Timestamp_Desktop.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow"
+        Title="Timetracking for small Business"
+        Icon="Assets/1024.ico"
         x:Name="ResponsiveWindow"
         Height="700"
         Width="1350"
         MinWidth="428"
-        WindowStyle="None"
-        AllowsTransparency="True"
         ResizeMode="CanResizeWithGrip"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-
-    <!--Todo: Möglichkeit das Fenster zu packen und wo hinzuziehen -->
+    
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibility" />
     </Window.Resources>
@@ -114,9 +112,9 @@
         </ContentControl>
 
         <!-- Close App Button-->
-        <Button Command="{Binding CloseAppCommand}"
+   <!--     <Button Command="{Binding CloseAppCommand}"
                 CommandParameter="{Binding ElementName=ResponsiveWindow}"
-                Style="{StaticResource CloseAppStyle}" />
+                Style="{StaticResource CloseAppStyle}" /> -->
 
 
     </Grid>

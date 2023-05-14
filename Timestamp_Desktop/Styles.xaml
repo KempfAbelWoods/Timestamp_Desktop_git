@@ -1233,6 +1233,7 @@
                                    Text="Dashboard"
                                    FontFamily="Fonts/#Open Sans Regular"
                                    Margin="70,0,0,0" />
+                        
                     </Grid>
 
                     <ControlTemplate.Triggers>
@@ -1243,14 +1244,14 @@
                                     TargetName="border"
                                     Value="#292F34" />
                         </Trigger>
-                        <Trigger Property="IsPressed"
+                        <Trigger
+                                 Property="IsPressed"
                                  Value="True">
                             <Setter Property="Background"
                                     TargetName="border"
                                     Value="#292F34" />
-
+ 
                         </Trigger>
-
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
