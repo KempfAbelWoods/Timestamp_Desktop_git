@@ -1206,9 +1206,9 @@
     <Style x:Key="MenuButton1Style"
            TargetType="Button">
 
-        <Setter Property="Template">
+            <Setter Property="Template">
 
-            <Setter.Value>
+                    <Setter.Value>
 
                 <ControlTemplate TargetType="Button">
 
@@ -1238,20 +1238,22 @@
 
                     <ControlTemplate.Triggers>
 
-                        <Trigger Property="IsMouseOver"
-                                 Value="True">
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
                             <Setter Property="Background"
                                     TargetName="border"
                                     Value="#292F34" />
-                        </Trigger>
+                                </Trigger>
                         <Trigger
                                  Property="IsPressed"
                                  Value="True">
                             <Setter Property="Background"
                                     TargetName="border"
                                     Value="#292F34" />
- 
+                            <!-- Todo Buttons aus WPF mit c# funtion verbinden -->
+                           <!-- <EventSetter Event="Click" Handler="hier ding eintragen"/>-->
                         </Trigger>
+                            
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>

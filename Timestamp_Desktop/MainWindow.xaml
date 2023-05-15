@@ -116,6 +116,5 @@
                 CommandParameter="{Binding ElementName=ResponsiveWindow}"
                 Style="{StaticResource CloseAppStyle}" /> -->
 
-
     </Grid>
 </Window>
