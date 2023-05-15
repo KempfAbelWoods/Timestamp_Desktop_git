@@ -24,12 +24,6 @@ namespace Timestamp_Desktop
         {
             InitializeComponent();
         }
-        
-        void Buttonbsp(object sender, RoutedEventArgs e)
-        {
-            Console.Write("i bims");
-            
-        }
 
     }
 }

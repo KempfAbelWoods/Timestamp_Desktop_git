@@ -5,7 +5,8 @@
     /// </Summary>-->
 
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="Timestamp_Desktop.Pages.Sidenavigation">
 
 
     <!--#region Card 1-->
@@ -1250,8 +1251,6 @@
                             <Setter Property="Background"
                                     TargetName="border"
                                     Value="#292F34" />
-                            <!-- Todo Buttons aus WPF mit c# funtion verbinden -->
-                           <!-- <EventSetter Event="Click" Handler="hier ding eintragen"/>-->
                         </Trigger>
                             
                     </ControlTemplate.Triggers>
@@ -1508,11 +1507,11 @@
 
                 <StackPanel Style="{StaticResource MenuStackPanelStyle}">
 
-                    <Button Style="{StaticResource MenuButton1Style}" />
-                    <Button Style="{StaticResource MenuButton2Style}" />
-                    <Button Style="{StaticResource MenuButton3Style}" />
-                    <Button Style="{StaticResource MenuButton4Style}" />
-                    <Button Style="{StaticResource MenuButton5Style}" />
+                    <Button Style="{StaticResource MenuButton1Style}" Click="Btnloadhome"/>
+                    <Button Style="{StaticResource MenuButton2Style}" Click="Btnloadcustomer"/>
+                    <Button Style="{StaticResource MenuButton3Style}" Click="Btnloadorders"/>
+                    <Button Style="{StaticResource MenuButton4Style}" Click="Btnloadbasedata"/>
+                    <Button Style="{StaticResource MenuButton5Style}" Click="Btnloadbills"/>
 
                 </StackPanel>
 

@@ -100,7 +100,7 @@
 
         <!--//Side Menu //[For Tablet, Mobile Layouts]-->
 
-        <ContentControl Content="{Binding}"
+       <ContentControl Content="{Binding}"
                         Visibility="{Binding IsPanelVisible, Converter={StaticResource BooleanToVisibility}}">
             <ContentControl.Style>
                 <Style TargetType="ContentControl">
