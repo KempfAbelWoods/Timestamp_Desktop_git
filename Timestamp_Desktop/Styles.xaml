@@ -6,6 +6,7 @@
 
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:Timestamp_Desktop.ViewModel"
                     x:Class="Timestamp_Desktop.Pages.Sidenavigation">
 
 
@@ -1506,8 +1507,8 @@
             <Grid>
 
                 <StackPanel Style="{StaticResource MenuStackPanelStyle}">
-
-                    <Button Style="{StaticResource MenuButton1Style}" Click="Btnloadhome"/>
+                        
+                        <Button Style="{StaticResource MenuButton1Style}" Click="Btnloadhome"/>
                     <Button Style="{StaticResource MenuButton2Style}" Click="Btnloadcustomer"/>
                     <Button Style="{StaticResource MenuButton3Style}" Click="Btnloadorders"/>
                     <Button Style="{StaticResource MenuButton4Style}" Click="Btnloadbasedata"/>
@@ -3221,8 +3222,6 @@
         </Border>
 
     </ControlTemplate>
-
-
     <!--#region Scrollbar Style -->
 
     <Style x:Key="ScrollThumbs"
@@ -3358,5 +3357,164 @@
     </Style>
 
     <!--#endregion-->
+    
+    <!--#region Homescreen as Controltemplate-->
+        <ControlTemplate x:Key="Home_Desktop_Layout">
+        <Grid>
 
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition x:Name="c0"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c1"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c2"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c3"
+                                          Width="1*" />
+
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition x:Name="CG_R1"
+                                       Height="130" />
+                        <RowDefinition x:Name="CG_R2"
+                                       Height="0" />
+                        <RowDefinition x:Name="CG_R3"
+                                       Height="462" />
+                        <RowDefinition x:Name="CG_R4"
+                                       Height="315" />
+
+
+                    </Grid.RowDefinitions>
+
+                <!--// Card - 1 //-->
+
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="0"
+                                Template="{StaticResource Card_1_Desktop}" />
+
+                <!--// Card - 2 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="1"
+                                Template="{StaticResource Card_2_Desktop}" />
+
+                <!--// Card - 3 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="2"
+                                Template="{StaticResource Card_3_Desktop}" />
+
+                <!--// Card - 4 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="3"
+                                Template="{StaticResource Card_4_Desktop}" />
+
+                <!--// Card - 5 //-->
+
+                <ContentControl Grid.Row="2"
+                                Grid.Column="0"
+                                Grid.ColumnSpan="4"
+                                Template="{StaticResource Card_5_Desktop}" />
+
+                <!--// Card - 6 //-->
+
+                <ContentControl Grid.Row="3"
+                                Grid.Column="0"
+                                Template="{StaticResource Card_6_Desktop}" />
+
+                <!--// Card - 7 //-->
+
+                <ContentControl Grid.Row="3"
+                                Grid.Column="1"
+                                Grid.ColumnSpan="3"
+                                Template="{StaticResource Card_7_Desktop}" />
+
+        </Grid>
+    </ControlTemplate>
+    <!--#endregion-->
+    
+    <!--#region Homescreen as datatemplate-->
+    <DataTemplate x:Key="123_Home_Desktop_Layout">
+        <Grid>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition x:Name="c0"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c1"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c2"
+                                          Width="1*" />
+                        <ColumnDefinition x:Name="c3"
+                                          Width="1*" />
+
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition x:Name="CG_R1"
+                                       Height="130" />
+                        <RowDefinition x:Name="CG_R2"
+                                       Height="0" />
+                        <RowDefinition x:Name="CG_R3"
+                                       Height="462" />
+                        <RowDefinition x:Name="CG_R4"
+                                       Height="315" />
+
+
+                    </Grid.RowDefinitions>
+
+                <!--// Card - 1 //-->
+
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="0"
+                                Template="{StaticResource Card_1_Desktop}" />
+
+                <!--// Card - 2 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="1"
+                                Template="{StaticResource Card_2_Desktop}" />
+
+                <!--// Card - 3 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="2"
+                                Template="{StaticResource Card_3_Desktop}" />
+
+                <!--// Card - 4 //-->
+
+                <ContentControl Grid.Row="0"
+                                Grid.Column="3"
+                                Template="{StaticResource Card_4_Desktop}" />
+
+                <!--// Card - 5 //-->
+
+                <ContentControl Grid.Row="2"
+                                Grid.Column="0"
+                                Grid.ColumnSpan="4"
+                                Template="{StaticResource Card_5_Desktop}" />
+
+                <!--// Card - 6 //-->
+
+                <ContentControl Grid.Row="3"
+                                Grid.Column="0"
+                                Template="{StaticResource Card_6_Desktop}" />
+
+                <!--// Card - 7 //-->
+
+                <ContentControl Grid.Row="3"
+                                Grid.Column="1"
+                                Grid.ColumnSpan="3"
+                                Template="{StaticResource Card_7_Desktop}" />
+
+        </Grid>
+    </DataTemplate>
+    <!--#endregion-->
 </ResourceDictionary>

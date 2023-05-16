@@ -48,7 +48,7 @@
                             <Setter Property="ContentTemplate"
                                     Value="{StaticResource Desktop_Layout}" />
 
-                        </DataTrigger>
+                        </DataTrigger> 
 
                         <!-- //Table Landscape Layout // {width <1200px} -->
 
